@@ -5,6 +5,7 @@ compiler:
   - gcc
 
 before_script:
+  - mkdir Build
   - cd Build
   - cmake ..
 
