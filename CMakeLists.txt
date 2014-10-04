@@ -9,5 +9,5 @@ set(TORCH_URIPARSER_SOURCES
 		Src/uriparser.cpp
 )
 
-add_library(TORCH_URIPASER ${TORCH_URIPARSER_SOURCES})
+add_library(${PROJECT_NAME} ${${PROJECT_NAME}_SOURCES})
 #target_link_libraries(TORCH_URIPARSER)
