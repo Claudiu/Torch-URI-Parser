@@ -6,7 +6,7 @@ set(CMAKE_BUILD_TYPE Release)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Include)
 
 set(TORCH_URIPARSER_INCLUDES
-	Include/uriparser.hpp
+	Include/torch/uriparser.hpp
 )
 
 set(TORCH_URIPARSER_SOURCES

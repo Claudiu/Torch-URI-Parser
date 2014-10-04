@@ -1,5 +1,5 @@
 #include <iostream>
-#include <uriparser.hpp>
+#include <torch/uriparser.hpp>
 
 int main (int argc, char ** argv) {
 	const char * a[] = {
